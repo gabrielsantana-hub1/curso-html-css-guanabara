@@ -1,0 +1,160 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bdffbd;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 16px 0;
+}
+
+#headermainly{
+    background: linear-gradient(to bottom, #00FF00, #006400);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#headermainly > h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+#headermainly > p{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#headermainly > nav > a{
+    color: white;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+#headermainly > nav > a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+main{
+    background-color: white;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.274);
+    padding-top: 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+main > section{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+h2{
+    background-color: #bdffbd;
+    color: #014b01;
+    font-weight: bolder;
+}
+
+h1{
+    color: #014b01;
+}
+
+span{
+    color: #014b01;
+    font-weight: bolder;
+}
+
+span > a{
+    color: #014b01;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+span > a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+#video{
+    display: block;
+    margin: 20px auto;
+    background-color: #014b01; /* fundo branco */
+    padding: 10px;
+}
+
+#list > article{
+    background-color: #90EE90;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+#list{
+    padding-left: 22px;
+    padding-right: 22px;
+   
+}
+
+#list > article > p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#headersec{
+    background-color: rgb(80, 192, 80);
+    margin: 1px;
+    padding: 1px;
+}
+
+#headersec{
+    padding-left: 10px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.listas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.listas > ul{
+    margin: 0;
+    padding-right: 250px;
+    padding-left: 0;
+    list-style: none;
+    font-weight: bolder;
+}
+
+footer{
+    background-color:#014b01 ;
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+footer > p{
+    color: lightgrey;
+    text-align: center;
+}
+
+#rodape{
+    color: white;
+}
