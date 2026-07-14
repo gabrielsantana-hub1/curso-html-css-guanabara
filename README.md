@@ -6,6 +6,14 @@ O objetivo deste repositório é registrar minha evolução, consolidar os conce
 
 ---
 
+## 📚 Progresso Atual
+
+- ✅ **15 exercícios concluídos**
+- ✅ **3 desafios concluídos**
+- 🚀 **Curso em andamento**
+
+---
+
 ## Exercícios
 
 | Exercício | Conteúdo | Demonstração | Status |
@@ -23,6 +31,8 @@ O objetivo deste repositório é registrar minha evolução, consolidar os conce
 | ex011 | Box Model | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/exercicios/ex011-box-model/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 | ex012 | Grouping Tags | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/exercicios/ex012-grouping-tags/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 | ex013 | Responsividade | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/exercicios/ex013-responsividade/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| ex014 | Background Image | <a href="https://github.com/gabrielsantana-hub1/curso-html-css-guanabara/tree/main/exercicios/ex014-backgrounds-image" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| ex015 | Centralização Vertical | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/exercicios/ex015-centralizacao-vertical/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 
 ---
 
@@ -30,8 +40,9 @@ O objetivo deste repositório é registrar minha evolução, consolidar os conce
 
 | Projeto | Tipo | Demonstração | Status |
 |----------|------|--------------|--------|
-| Página Android | Desenvolvimento autoral | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-android/desafio-android-autoral/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
-| Página Android | Guiado pelo curso | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-android/desafio-android-guiado/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| Site Android | Desenvolvimento autoral (baseado no desafio do curso) | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-android/desafio-android-autoral/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| Site Android | Desenvolvimento guiado pelo curso | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-android/desafio-android-guiado/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| Site Cordel | Desenvolvimento parcialmente autoral (baseado no desafio do curso) | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-cordel/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 
 ---
 
