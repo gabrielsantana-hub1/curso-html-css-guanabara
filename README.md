@@ -64,4 +64,4 @@ O objetivo deste repositório é registrar minha evolução, consolidar os conce
 
 ## Autor
 
-**Gabriel Santana**
+**Gabriel Sant'ana**
