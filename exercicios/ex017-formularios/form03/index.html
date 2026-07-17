@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+  
+</head>
+<body>
+    
+    <header>
+        <h1>Aba de cadastro simples</h1>
+    </header>
+
+    <main>
+    
+        <div class="regras">
+            <h2>Regras de preenchimento</h2>
+             
+            <ul>
+
+                <li>Os nomes não poderão ter menos de 3 caracteres</li>
+                <li>As senhas só poderão conter de 8 a 15 caracteres</li>
+
+            </ul>
+
+        </div>
+
+
+        <h3>cadastro</h2>
+    
+        <form action="" method="post">
+    
+            <fieldset>
+
+
+                <div class="form">
+                    <label for="cnome">Digite seu nome</label>
+                    <input type="text" name="nomedc" id="cnome" required minlength="3">
+                </div>
+
+                <div class="form">
+                    <label for="isen">Digite sua senha</label>
+                    <input type="password" name="sen" id="isen" 
+                    required 
+                    minlength="8"
+                    maxlength="15">
+                </div>
+                
+                <input type="submit" value="Enviar" class="botao">
+
+                <input type="reset" value="Limpar" class="botao">
+
+            </fieldset>
+            
+        </form>
+    </main>
+    
+</body>
+</html>
