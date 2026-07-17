@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
+    <title>Formulário</title>
 </head>
+
 <body>
-    
+
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <P>
+            <label for="idesta"> Estados </label>
+            <select name="Estados" id="idesta">
+                
+                <optgroup label="Suldeste">
+
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="SP">São Paulo</option>
+
+                </optgroup>
+
+                <optgroup label="norte">
+
+                    <option value="AC">Acre</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="TO">Tocantins</option>
+
+                </optgroup>
+
+                <optgroup label="Nordeste">
+
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PE">Pernanbuco</option>
+                    <option value="Piauí">PI</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="SE">Sergipe</option>
+                    
+                </optgroup>
+
+                <optgroup label="Centro-Oeste">
+
+                    <option value="GO">Goaiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="DF">Distrito Federal</option>
+
+                </optgroup>
+
+            </select>
+
+        </P>
+        
+        <p>
+            <label for="prof">Profissão</label>
+            <input type="text" name="profs" id="prof" list="profis">
+
+            <datalist id="profis">
+                <option>Professor</option>
+                <option>Desenvolvedor</option>
+                <option>Analista</option>
+                <option>DBA</option>
+            </datalist>
+        </p>
+
+        <label for="msg">Mensagem</label>
+        <textarea name="mens" id="msg"></textarea>
+
+        <p>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+        </p>
+
+    </form>
 </body>
+
 </html>
