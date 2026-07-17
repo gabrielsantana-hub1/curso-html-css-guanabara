@@ -1,0 +1,72 @@
+/*estilo para telas*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 1em;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    background-color: lightgray;
+    height: 71px;
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 16px;
+}
+
+nav{
+
+    margin-bottom: 18px;
+    background-color: gray;
+    padding-left: 10px;
+    padding-top: 16px;
+    height: 26px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav a:hover{
+    background-color: rgb(202, 202, 202);
+}
+
+main, h2, p{
+    margin: auto;
+    max-width: 400px;
+    padding-bottom: 20px;
+}
+
+
+article{
+    border: 1px solid black;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.315);
+    text-align:justify ;
+}
+
+article > p{
+ padding: 10px;
+ text-indent: 2em;
+}
+
+article > h2{
+    padding-right: 5px;
+    text-align: center;
+}
