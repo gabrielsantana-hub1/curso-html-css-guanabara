@@ -40,7 +40,7 @@ O objetivo deste repositório é registrar minha evolução, consolidar os conce
 
 | Projeto | Tipo | Demonstração | Status |
 |----------|------|--------------|--------|
-| Site Android | Desenvolvimento autoral (baseado no desafio do curso) | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-android/desafio-android-autoral/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| Site Android | Desenvolvimento  parcialmente autoral (baseado no desafio do curso) | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-android/desafio-android-autoral/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 | Site Android | Desenvolvimento guiado pelo curso | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-android/desafio-android-guiado/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 | Site Cordel | Desenvolvimento parcialmente autoral (baseado no desafio do curso) | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-cordel/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 
