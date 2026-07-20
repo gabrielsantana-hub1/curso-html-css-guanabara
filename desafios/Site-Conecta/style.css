@@ -6,12 +6,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-:root{
+:root {
     --cor-do-menu: #1E3A8A;
     --cor-do-tsite: #F97316;
     --cor-do-tprincipal: #374151;
@@ -23,19 +23,19 @@
     --font-do-rodape: "Raleway", sans-serif;
 }
 
-header{
+header {
     font-family: var(--fonte-do-menu);
 }
 
-header > h1{
+header>h1 {
     color: var(--cor-do-tsite);
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px ;
+    padding-bottom: 10px;
     font-family: var(--font-do-tsite);
 }
 
-#hambuger{
+#hambuger {
     display: block;
     padding: 6px;
     background-color: #1E3A8A;
@@ -43,32 +43,34 @@ header > h1{
     text-align: center;
 }
 
-#hambuger:hover{
-    background-color:  #F97316; 
+#hambuger:hover {
+    background-color: #F97316;
     cursor: pointer;
 }
 
-nav{
+nav {
     display: none;
-}
-
-nav a{
-    display: block;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    color: var(--cor-do-liebo);
-    text-decoration: none;
-    text-align: center;
-    border-top: 2px solid black;
     background-color: var(--cor-do-menu);
 }
 
-nav a:hover{
+nav li {
+    padding: 7px;
+    border-top: 2px solid black;
+}
+
+nav a {
+    display: block;
+    color: var(--cor-do-liebo);
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
     background-color: #F97316;
     color: white;
 }
 
-main{
+main {
     width: 90vw;
     background-color: #F3F4F6;
     margin: auto;
@@ -76,22 +78,93 @@ main{
     border-radius: 10px;
 }
 
-main h2{
+main h2 {
     padding: 10px;
     margin-bottom: 10px;
-    color: #1E3A8A ;
+    color: #1E3A8A;
     font-family: var(--font-do-txtprincipal);
-  
+
 }
 
-article{
+article {
     font-family: var(--font-do-txtprincipal);
 }
 
-article p{
+article p {
     margin-bottom: 10px;
     padding: 10px;
     color: var(--cor-do-tprincipal);
     text-indent: 1.3em;
     text-align: justify;
+}
+
+footer {
+    background-color: #1E3A8A;
+    font-family: var(--font-do-rodape);
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #F97316;
+    text-decoration: underline;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 530px) {
+    
+
+    header h1 {
+        padding: 20px;
+    }
+
+    #hambuger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        background-color: var(--cor-do-menu);
+    }
+
+    nav ul{
+        text-align: center;
+        height: 48px;
+    }
+
+    nav li {
+        display: inline-block;
+        border: 0px;
+        padding: 7px;
+        
+    }
+
+    nav a {
+        padding: 5px;
+        color: var(--cor-do-liebo);
+        text-decoration: none;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    nav a:hover{
+        border-radius: 4px;
+        transition-duration: 0.5s;
+    }
+
+
+    main{
+        max-width: 840px;
+    }
 }
