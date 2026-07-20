@@ -54,11 +54,11 @@ nav {
 }
 
 nav li {
-    padding: 7px;
     border-top: 2px solid black;
 }
 
 nav a {
+    padding: 7px;
     display: block;
     color: var(--cor-do-liebo);
     text-decoration: none;
