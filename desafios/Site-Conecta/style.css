@@ -119,9 +119,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-span {
-    font-weight: bold;
-}
+footer span { font-weight: bold; }
 
 @media screen and (min-width: 530px) {
     
