@@ -1,25 +1,28 @@
 :root {
-    --cor-principal: #2E8B57; /* verde profundo */
-    --cor-secundaria: #FFFFFF; /* branco puro */
+    --cor-principal: #2E8B57;
+    /* verde profundo */
+    --cor-secundaria: #FFFFFF;
+    /* branco puro */
 }
 
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
 }
 
-body, html{
+body,
+html {
     background-color: var(--cor-principal);
     height: 100vh;
     width: 100vw;
 }
 
-main{
+main {
     position: relative;
-   height: 100vh;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -31,13 +34,13 @@ section#login {
 
     background-color: var(--cor-secundaria);
     width: 250px;
-    min-height: 500px; 
+    min-height: 500px;
     border-radius: 14px;
-    overflow: hidden; 
+    overflow: hidden;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.274);
 }
 
-#imagem{
+#imagem {
     display: block;
     background: var(--cor-principal) url(pequeno.jpg);
     height: 180px;
@@ -45,9 +48,48 @@ section#login {
     background-position: bottom center;
 }
 
-#formulario{
+#formulario {
     display: block;
     padding: 10px;
 }
 
+@media screen and (min-width:600px) {
+    section#login {
+        width: 90vw;
+        height: 70vh;
+        overflow: hidden;
+    }
 
+    section#login>div#imagem {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    section#login>div#formulario {
+        float: right;
+        width: 65%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1050px) {
+    section#login {
+        
+        width: 990px;
+        overflow: hidden;
+    }
+
+    section#login>div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login>div#formulario {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
