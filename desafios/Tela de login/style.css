@@ -1,5 +1,5 @@
 :root {
-    --cor-principal: #2E8B57;
+    --cor-principal: #588157;
     /* verde profundo */
     --cor-secundaria: #FFFFFF;
     /* branco puro */
@@ -46,6 +46,7 @@ section#login {
     height: 180px;
     background-size: cover;
     background-position: bottom center;
+    background-attachment: fixed;
 }
 
 #formulario {
@@ -53,7 +54,16 @@ section#login {
     padding: 10px;
 }
 
-@media screen and (min-width:600px) {
+#formulario>h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#formulario>p {
+    font-size: 0.8em;
+}
+
+@media screen and (min-width:440px) {
     section#login {
         width: 90vw;
         height: 70vh;
@@ -62,34 +72,57 @@ section#login {
 
     section#login>div#imagem {
         float: left;
-        width: 35%;
+        width: 30%;
         height: 100%;
     }
 
     section#login>div#formulario {
         float: right;
-        width: 65%;
+        width: 70%;
         height: 100%;
     }
 
+    div#formulario>h1 {
+        font-size: 2em;
+    }
+
+    div#formulario>p {
+        font-size: 1.2em;
+        text-align: justify;
+    }
+ 
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1000px) {
+     
     section#login {
-        
-        width: 990px;
+        transition-duration: 0.1s;
+        transition-timing-function: ease;
+        width: 978px;
+        height: 80vh;
         overflow: hidden;
     }
 
     section#login>div#imagem {
         float: left;
-        width: 50%;
+        width: 30%;
         height: 100%;
     }
 
     section#login>div#formulario {
         float: right;
-        width: 50%;
+        width: 70%;
         height: 100%;
     }
+
+    div#formulario>h1 {
+        font-size: 2em;
+    }
+
+    div#formulario>p {
+        font-size: 1.2em;
+        text-align: justify;
+    }
+
 }
+
