@@ -8,8 +8,8 @@ O objetivo deste repositório é registrar minha evolução, consolidar os conce
 
 ## 📚 Progresso Atual
 
-- ✅ **15 exercícios concluídos**
-- ✅ **3 desafios concluídos**
+- ✅ **18 exercícios concluídos**
+- ✅ **5 desafios concluídos**
 - 🚀 **Curso em andamento**
 
 ---
@@ -33,6 +33,9 @@ O objetivo deste repositório é registrar minha evolução, consolidar os conce
 | ex013 | Responsividade | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/exercicios/ex013-responsividade/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 | ex014 | Background Image | <a href="https://github.com/gabrielsantana-hub1/curso-html-css-guanabara/tree/main/exercicios/ex014-backgrounds-image" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 | ex015 | Centralização Vertical | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/exercicios/ex015-centralizacao-vertical/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| ex016 | Tabelas | <a href="https://github.com/gabrielsantana-hub1/curso-html-css-guanabara/tree/main/exercicios/ex016-tables" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| ex017 | Formulários | <a href="https://github.com/gabrielsantana-hub1/curso-html-css-guanabara/tree/main/exercicios/ex017-formularios" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| ex018 | Media Queries | <a href="https://github.com/gabrielsantana-hub1/curso-html-css-guanabara/tree/main/exercicios/ex018-media-queries" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 
 ---
 
@@ -40,9 +43,11 @@ O objetivo deste repositório é registrar minha evolução, consolidar os conce
 
 | Projeto | Tipo | Demonstração | Status |
 |----------|------|--------------|--------|
-| Site Android | Desenvolvimento  parcialmente autoral (baseado no desafio do curso) | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-android/desafio-android-autoral/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| Site Android | Desenvolvimento parcialmente autoral (baseado no desafio do curso) | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-android/desafio-android-autoral/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 | Site Android | Desenvolvimento guiado pelo curso | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-android/desafio-android-guiado/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 | Site Cordel | Desenvolvimento parcialmente autoral (baseado no desafio do curso) | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/site-cordel/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| Tela de Login Responsiva | Desenvolvimento parcialmente autoral (baseado no desafio do curso) | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/Site-Conecta/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
+| Site Conecta Fácil | Projeto autoral para aplicação prática dos conceitos estudados | <a href="https://gabrielsantana-hub1.github.io/curso-html-css-guanabara/desafios/Tela%20de%20login/" target="_blank" rel="noopener noreferrer">Visualizar</a> | ✅ |
 
 ---
 
@@ -50,7 +55,6 @@ O objetivo deste repositório é registrar minha evolução, consolidar os conce
 
 - HTML5
 - CSS3
-
 ---
 
 ## Objetivos
@@ -65,3 +69,5 @@ O objetivo deste repositório é registrar minha evolução, consolidar os conce
 ## Autor
 
 **Gabriel Sant'ana**
+
+GitHub: https://github.com/gabrielsantana-hub1
